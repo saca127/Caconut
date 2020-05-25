@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Caconut ! Trang chủ</title>
+	<meta charset="utf-8" name="description" content="This is description">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript">
+		window.alert = function(title, message){
+		    var myElementToShow = document.getElementById("someElementId");
+		    myElementToShow.innerHTML = title + "</br>" + message; 
+		}	
+	</script>
+</head>
+	<body>
+		<script type="text/javascript">
+			alert("Caconut","ABc");
+		</script>
+		<!-- Tiêu đề -->
+		<header class="main-header">
+			<nav class="nav main-nav">
+				<ul>
+					<li><a href="index.html">Trang chủ</a></li>
+					<li><a href="product.html">Sản phẩm</a></li>
+					<li><a href="about.html">Thông tin</a></li>	
+				</ul>
+			</nav>
+			<img class="band-name-logo" src="Images/Caconut4.png">
+			<!-- <div class="container">
+				<button class="btn btn-header">Tham quan</button>
+			</div> -->
+			<!-- <button class="btn btn-header btn-play">&#9658</button> -->
+		</header>
+		<!-- Nội dung thân giữa -->
+		<section class="content-section container">
+			<h2 class="section-header">Sản phẩm tiêu biểu</h2>
+			<div>
+				<div class="tour-row">
+					<span class="tour-item tour-date">Ngày 1</span>
+					<span class="tour-item tour-city">Sản phẩm</span>
+					<span class="tour-item tour-arena">Chi tiết</span>
+					<button class="tour-item tour-btn btn-primary" type="button">Đặt hàng</button>
+				</div>
+				<div class="tour-row">
+					<span class="tour-item tour-date">Ngày 2</span>
+					<span class="tour-item tour-city">Sản phẩm</span>
+					<span class="tour-item tour-arena">Chi tiết</span>
+					<button class="tour-item tour-btn btn-primary" type="button">Đặt hàng</button>
+				</div>
+				<div class="tour-row">
+					<span class="tour-item tour-date">Ngày 3</span>
+					<span class="tour-item tour-city">Sản phẩm</span>
+					<span class="tour-item tour-arena">Chi tiết</span>
+					<button class="tour-item tour-btn btn-primary" type="button">Đặt hàng</button>
+				</div>
+			</div>
+		</section>
+		<!-- Chân trang  -->
+		<footer class="main-footer">	
+			<div class="container main-footer-container">
+				<h3 class="band-name">Caconut</h3>
+				<ul class="nav footer-nav">
+					<a href="tel:0905 314 899">
+						<li><img src="Images/Phone96.png"></li>
+					</a>
+					<a href="https://chat.zalo.me" target="blank">
+						<li><img src="Images/Zalo96.png"></li>
+					</a>
+					<a href="https://youtube.com" target="blank">
+						<li><img src="Images/Youtube96.png"></li>
+					</a>
+					<a href="https://facebook.com" target="blank">
+						<li><img src="Images/Facebook96.png"></li>
+					</a>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
